@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width:100%;
+}
+.container-2{
+    width: 50%;
+}
+/* ---------------classes---------- */ 
+.text-align{
+    text-align: center;
+}
+.d-flex{
+    display:flex ;
+}
+.w-100{
+    width: 100%;
+}
+.w-33{
+    width: 33.33%;
+    height:200px;
+}
+.flex-row{
+    flex-direction: row;
+}
+.flex-row-reverse{
+    flex-direction: row-reverse;
+}
+.flex-column{ 
+    flex-direction:column ;
+}
+.flex-column-reverse{ 
+    flex-direction:column-reverse ;
+}
+.justify-start{
+    justify-content: flex-start;
+}
+.justify-end{
+    justify-content: flex-end;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-around{
+    justify-content: space-around;
+}
+.justify-between{
+    justify-content: space-between;
+} 
+.justify-evenly{
+    justify-content: space-evenly;
+}
+.flex-wrap{
+    flex-wrap:wrap ;
+}
+/* h1 */
+h1{
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:maroon;
+}
+
+
+
+/* container part */
+.box{
+    background-color: darkorange;
+}
+.box-2{
+    background-color: darkslateblue;
+}
+.box-3{
+    background-color: fuchsia;
+}
+.box-4{
+    background-color:navy;
+}
